@@ -1,10 +1,11 @@
 import random
 
-words = ('name', 'done', 'bind', 'word')
-some_word = words[random.randint(0, len(words) - 1)]
+WORDS = ('name', 'done', 'bind', 'word')
+some_word = random.choice(WORDS)
+
 unknown_char = '_'
 res = list(unknown_char * len(some_word))
-lifes = 10
+lifes = 5
 
 def check_word(input, res):
     if input in some_word:

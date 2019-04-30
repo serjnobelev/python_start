@@ -1,7 +1,7 @@
 import random
 
-words = ('name', 'done', 'bind', 'word')
-some_word = words[random.randint(0, len(words) - 1)]
+WORDS = ('name', 'done', 'bind', 'word')
+some_word = random.choice(WORDS)
 lifes = 4
 
 def check_word(word):
