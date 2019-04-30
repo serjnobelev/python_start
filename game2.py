@@ -31,7 +31,7 @@ while lifes != 0:
         print(res)
         lifes -= 1
         if lifes != 0:
-            print('У Вас осталось ' + str(lifes) + ' жизней')
+            print('У Вас осталось %s жизней' % str(lifes))
         else:
             print('Вы проиграли')
             break
