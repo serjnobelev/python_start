@@ -1,5 +1,9 @@
 # import random
 
+# В Питоне эти операции реализованы как в математике
+print((-12) // 5)
+print ((-12) % 5)
+
 # def my_func(v1, v2):
 #     return "My args are: {} and {}".format(v1, v2)
 
