@@ -43,3 +43,7 @@ my_dict = {'day': 'wed', 'month': 'jan'}
 
 # Convert dict to kwargs
 fnc_kwargs(**my_dict)
+
+# array creating
+arr = [f for f in '123']
+print(arr)
