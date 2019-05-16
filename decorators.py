@@ -8,8 +8,7 @@ def logger(func):
     def inner(x, y):
         # print('Func is', func.__name__)
         return func(x, y)
-    end = time.time()
-    print('Time is', end - start)
+    print('Time is', time.time() - start)
     return inner
 
 def sum(x, y):
@@ -31,3 +30,5 @@ def decor_sum(x, y):
     return x + y
 
 print(decor_sum(1, 10))
+
+
